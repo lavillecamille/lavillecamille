@@ -69,7 +69,7 @@ sections:
       description: ""
       organization: CERDI
       organization_url: https://cerdi.uca.fr/#/admin
-      title: PhD in Development economics
+      title: PhD in Development Economics
       url: ""
     - certificate_url: 
       date_end: "2021-12-15"
