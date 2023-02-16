@@ -15,7 +15,7 @@ authors: [Camille Laville & Pierre Mandon]
 tags:
 - Internal Conflicts
 title: Internal Conflicts and Shocks. A Narrative Meta-Analysis
-subtitle: Joint with [**Pierre Mandon**](https://sites.google.com/view/pierremandon). Submitted as World Bank Working Paper.
+subtitle: Joint with [**Pierre Mandon**](https://sites.google.com/view/pierremandon). Forthcoming as a World Bank Working Paper.
 url_code: ""
 url_pdf: ""
 url_slides: ""
