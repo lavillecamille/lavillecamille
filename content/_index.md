@@ -229,10 +229,10 @@ sections:
     address:
       city: Paris
       country: France
-      country_code: US
-      postcode: "75007 SP07"
+      country_code: 
+      postcode: ""
       region: ""
-      street: Ecole Militaire, Case 41 - 1 Place Joffre
+      street: ""
    # appointment_url: https://calendly.com
   #  autolink: true
 #   contact_links:
@@ -261,7 +261,7 @@ sections:
 #   - Wednesday 09:00 to 10:00
 #   phone: 888 888 88 88
 #   subtitle: null
-    text: laville.ecodef[at]gmail.com OR camille.laville[at]fdd-ihedn.fr
+    text: laville.ecodef[at]gmail.com OR c.laville[at]odi.org.uk
     title: Contact
   design:
     columns: "2"
