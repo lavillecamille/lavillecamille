@@ -98,9 +98,9 @@ sections:
   content:
     date_format: Dec 2021
     items:
-      - company: ODI (Overseas Development Institute), Global Risks and Resilience Team
-      company_logo: 
-      company_url: ""
+    - company: ODI (Overseas Development Institute), Global Risks and Resilience Team
+      company_logo: ""
+      company_url: "https://odi.org/en/about/our-work/global-risks-and-resilience/"
       date_end: ""
       date_start: "2023-09-18"
       description: Climate Resilient Development in Fragile and Conflict Affected Countries using and Hollistic Approach to Risk Analysis. 
