@@ -103,7 +103,7 @@ sections:
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
       date_start: "2023-09-18"
-      description: Climate Resilient Development in Fragile and Conflict Affected Countries using and Hollistic Approach to Risk Analysis. 
+      description: Climate resilient development in fragile and conflict affected settings (hollistic risk analysis). 
       location: Paris (France)
       title: Research Fellow, Climate and Security Risks
     - company: Chair of Defense Economics - IHEDN
@@ -111,7 +111,7 @@ sections:
       company_url: ""
       date_end: "2023-09-01"
       date_start: "2021-04-01"
-      description: International Scale of Conflict Economics; Determinants of Supply/Demand for Major Conventional Arms. 
+      description: Determinants of supply/demand for major conventional arms (international scale of conflict economics). 
       location: France
       title: Researcher
     - company: Ferdi
@@ -119,7 +119,7 @@ sections:
       company_url: https://ferdi.fr/
       date_end: "2017-10-01"
       date_start: "2015-12-01"
-      description: Defense, Development and Diplomatic (3D) Approach to Peace and Security in the Sahel.
+      description: Practitioners' vison of the Defense, Development and Diplomatic (3D) approach to peace and security in the Sahel.
       location: France
       title: Research Assistant
     title: Experiences
