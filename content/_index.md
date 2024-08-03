@@ -111,7 +111,7 @@ sections:
       company_url: ""
       date_end: "2023-09-01"
       date_start: "2021-04-01"
-      description: International Scale of Conflict Economics: Determinants of Supply/Demand for Major Conventional Arms. 
+      description: International Scale of Conflict Economics; Determinants of Supply/Demand for Major Conventional Arms. 
       location: France
       title: Researcher
     - company: Ferdi
