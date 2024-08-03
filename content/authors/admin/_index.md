@@ -23,7 +23,7 @@ interests:
 - Political Economics
 last_name: Laville
 organizations:
-- name: ODI - Global Riasks and Resilience
+- name: ODI - Global Risks and Resilience
   url: https://odi.org/en/about/our-work/global-risks-and-resilience/
 role: Research Fellow Climate and Security Risk
 social:
@@ -54,7 +54,7 @@ superuser: true
 title: Camille Laville
 ---
 
-I am a researcher specializing in conflict and defense economics. Currently, I hold the position of Research Fellow in the Global Risks and Resilience team at [**ODI**](https://odi.org/en/about/our-work/global-risks-and-resilience/). Additionally, I serve as an Associate Researcher at [**Center for Studies and Research on International Development (CERDI)**](https://cerdi.uca.fr/). 
+I am a researcher specializing in conflict and defense economics. Currently, I hold the position of Research Fellow in the Global Risks and Resilience team at [**ODI**](https://odi.org/en/about/our-work/global-risks-and-resilience/). Additionally, I serve as an Associate Researcher at the [**Center for Studies and Research on International Development (CERDI)**](https://cerdi.uca.fr/). 
 
 My research focuses on the local determinants of recurring conflict in developing countries and their impact on political decision-making related to security and development. I employ a holistic approach to conflict risk analysis, examining economic and political factors across multiple scales. I focus on understanding how local determinants, such as income changes and climate extremes, interact with broader conflict drivers, including real and perceived inequalities, politicization dynamics and the international arms trade. 
 
