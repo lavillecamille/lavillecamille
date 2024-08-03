@@ -23,9 +23,9 @@ interests:
 - Political Economics
 last_name: Laville
 organizations:
-- name: Chair of Defense economics - IHEDN
-  url: https://ecodef-ihedn.fr/
-role: Researcher
+- name: ODI - Global Riasks and Resilience
+  url: https://odi.org/en/about/our-work/global-risks-and-resilience/
+role: Research Fellow Climate and Security Risk
 social:
 - icon: envelope
   icon_pack: fas
