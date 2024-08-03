@@ -98,12 +98,20 @@ sections:
   content:
     date_format: Dec 2021
     items:
+      - company: ODI (Overseas Development Institute), Global Risks and Resilience Team
+      company_logo: 
+      company_url: ""
+      date_end: ""
+      date_start: "2023-09-18"
+      description: Climate Resilient Development in Fragile and Conflict Affected Countries using and Hollistic Approach to Risk Analysis. 
+      location: Paris (France)
+      title: Research Fellow, Climate and Security Risks
     - company: Chair of Defense Economics - IHEDN
       company_logo: ihedn
       company_url: ""
-      date_end: ""
+      date_end: "2023-09-01"
       date_start: "2021-04-01"
-      description: Trade in Major Conventional Arms; Factors of Conflicts in Low- and Middle-Income Countries; Budget of Military External Operations. 
+      description: International Scale of Conflict Economics: Determinants of Supply/Demand for Major Conventional Arms. 
       location: France
       title: Researcher
     - company: Ferdi
@@ -111,7 +119,7 @@ sections:
       company_url: https://ferdi.fr/
       date_end: "2017-10-01"
       date_start: "2015-12-01"
-      description: Peace, Security and Development in the Sahel.
+      description: Defense, Development and Diplomatic (3D) Approach to Peace and Security in the Sahel.
       location: France
       title: Research Assistant
     title: Experiences
