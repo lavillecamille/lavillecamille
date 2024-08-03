@@ -1,9 +1,9 @@
-module github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-
 go 1.15
 
 require (
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.0
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms main
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify main
+    github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal main
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 main
 )
 
