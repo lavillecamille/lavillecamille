@@ -1,7 +1,7 @@
 +++
-title = "Allier securite et developpement, plaidoyer pour le Sahel"
-date = "2016-01-01"
-authors = ["Sylviane Guillaumont-Jeanneney et al."]
+title = "The Political Economy of Military Aircraft, the Case of Europe"
+date = "2024-01-01"
+authors = ["Droff J., J. Guiberteau, C. Laville et al."]
 publication_types = ["5"]
 publication = "NA"
 publication_short = "NA"
@@ -11,7 +11,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = "https://ferdi.fr/dl/df-VtMSyiido9x2EmdEdRAr9fBf/allier-securite-et-developpement-volume-1.pdf"
+url_pdf = "https://doi.org/10.1080/10242694.2023.2271816"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
