@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4 | Academic</title>
-    <link>http://lavillecamille.netlify.app/publication-type/4/</link>
-      <atom:link href="http://lavillecamille.netlify.app/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <title>4 | Camille Laville</title>
+    <link>https://lavillecamille.netlify.app/publication-type/4/</link>
+      <atom:link href="https://lavillecamille.netlify.app/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://lavillecamille.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lavillecamille.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>4</title>
-      <link>http://lavillecamille.netlify.app/publication-type/4/</link>
+      <link>https://lavillecamille.netlify.app/publication-type/4/</link>
     </image>
     
     <item>
+      <title>Building forward better: a pathway to climate-resilient development in fragile and conflict-affected situations</title>
+      <link>https://lavillecamille.netlify.app/publication/academic-publications/2023-01-01_building_forward_bet/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://lavillecamille.netlify.app/publication/academic-publications/2023-01-01_building_forward_bet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>How to analyze the socio-political risk? A key component of country risk</title>
-      <link>http://lavillecamille.netlify.app/publication/academic-publications/2018-01-01_how_to_analyze_the_s/</link>
+      <link>https://lavillecamille.netlify.app/publication/academic-publications/2018-01-01_how_to_analyze_the_s/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://lavillecamille.netlify.app/publication/academic-publications/2018-01-01_how_to_analyze_the_s/</guid>
+      <guid>https://lavillecamille.netlify.app/publication/academic-publications/2018-01-01_how_to_analyze_the_s/</guid>
       <description></description>
     </item>
     

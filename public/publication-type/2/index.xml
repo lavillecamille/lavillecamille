@@ -1,30 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Academic</title>
-    <link>http://lavillecamille.netlify.app/publication-type/2/</link>
-      <atom:link href="http://lavillecamille.netlify.app/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <title>2 | Camille Laville</title>
+    <link>https://lavillecamille.netlify.app/publication-type/2/</link>
+      <atom:link href="https://lavillecamille.netlify.app/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://lavillecamille.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lavillecamille.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>http://lavillecamille.netlify.app/publication-type/2/</link>
+      <link>https://lavillecamille.netlify.app/publication-type/2/</link>
     </image>
     
     <item>
+      <title>Internal conflicts and shocks: A narrative meta-analysis</title>
+      <link>https://lavillecamille.netlify.app/publication/academic-publications/2024-01-01_internal_conflicts_a/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://lavillecamille.netlify.app/publication/academic-publications/2024-01-01_internal_conflicts_a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Political Economy of Military Aircraft, the Case of Europe</title>
+      <link>https://lavillecamille.netlify.app/publication/academic-publications/2024-01-01_the_political_econom/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://lavillecamille.netlify.app/publication/academic-publications/2024-01-01_the_political_econom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vulnerability of Rural Households and Insecurity in West Africa</title>
-      <link>http://lavillecamille.netlify.app/publication/academic-publications/2020-01-01_vulnerability_of_rur/</link>
+      <link>https://lavillecamille.netlify.app/publication/academic-publications/2020-01-01_vulnerability_of_rur/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://lavillecamille.netlify.app/publication/academic-publications/2020-01-01_vulnerability_of_rur/</guid>
+      <guid>https://lavillecamille.netlify.app/publication/academic-publications/2020-01-01_vulnerability_of_rur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Causes of Civil Conflicts: Recent Advances Using Disaggregated Data</title>
-      <link>http://lavillecamille.netlify.app/publication/academic-publications/2019-01-01_the_causes_of_civil_/</link>
+      <link>https://lavillecamille.netlify.app/publication/academic-publications/2019-01-01_the_causes_of_civil_/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://lavillecamille.netlify.app/publication/academic-publications/2019-01-01_the_causes_of_civil_/</guid>
+      <guid>https://lavillecamille.netlify.app/publication/academic-publications/2019-01-01_the_causes_of_civil_/</guid>
       <description></description>
     </item>
     

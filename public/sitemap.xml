@@ -2,105 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://lavillecamille.netlify.app/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://lavillecamille.netlify.app/publication-type/2/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2024-01-01_internal_conflicts_a/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/tag/arms-trade/</loc>
-    <lastmod>2023-02-09T15:30:42+01:00</lastmod>
+    <loc>https://lavillecamille.netlify.app/publication_types/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/project/showcase/</loc>
-    <lastmod>2023-02-07T10:06:10+01:00</lastmod>
+    <loc>https://lavillecamille.netlify.app/publication/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/project/</loc>
-    <lastmod>2023-02-09T15:30:42+01:00</lastmod>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2024-01-01_the_political_econom/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/tags/</loc>
-    <lastmod>2023-02-09T15:30:42+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/tag/internal-conflicts/</loc>
+    <loc>https://lavillecamille.netlify.app/project/</loc>
     <lastmod>2023-02-09T15:21:44+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/project/2023-02-07-mra/</loc>
+    <loc>https://lavillecamille.netlify.app/tag/replication/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/project/the-political-economy-of-military-aircraft-the-case-of-europe/</loc>
-    <lastmod>2023-02-09T15:30:42+01:00</lastmod>
+    <loc>https://lavillecamille.netlify.app/project/2023-02-07-mra/</loc>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/project/keep-off-the-grass-grassland-scarcity-and-the-security-implications-of-cross-border-transhumance-between-niger-and-nigeria/</loc>
+    <loc>https://lavillecamille.netlify.app/tags/</loc>
     <lastmod>2023-02-09T15:21:44+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/project/religious-authorities-peace-and-political-conflict-assessing-the-impacts-of-pope-john-paul-ii-s-international-travels/</loc>
+    <loc>https://lavillecamille.netlify.app/publication-type/4/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2023-01-01_building_forward_bet/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lavillecamille.netlify.app/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lavillecamille.netlify.app/project/keep-off-the-grass-grassland-scarcity-and-the-security-implications-of-cross-border-transhumance-between-niger-and-nigeria/</loc>
+    <lastmod>2023-02-09T15:21:44+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lavillecamille.netlify.app/tag/project/</loc>
+    <lastmod>2023-02-09T15:21:44+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lavillecamille.netlify.app/project/religious-authorities-peace-and-political-conflict-assessing-the-impacts-of-pope-john-paul-ii-s-international-travels/</loc>
     <lastmod>2023-02-09T15:08:12+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/publication-type/2/</loc>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2020-01-01_vulnerability_of_rur/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/publication_types/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/publication/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/publication/academic-publications/2020-01-01_vulnerability_of_rur/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/publication/academic-publications/2019-01-01_the_causes_of_civil_/</loc>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2019-01-01_the_causes_of_civil_/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/publication-type/4/</loc>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2018-01-01_how_to_analyze_the_s/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/publication/academic-publications/2018-01-01_how_to_analyze_the_s/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://lavillecamille.netlify.app/publication-type/5/</loc>
+    <loc>https://lavillecamille.netlify.app/publication-type/5/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/publication/academic-publications/2016-01-01_allier_securite_et_d/</loc>
+    <loc>https://lavillecamille.netlify.app/publication/academic-publications/2016-01-01_allier_securite_et_d/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/admin/</loc>
+    <loc>https://lavillecamille.netlify.app/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/categories/</loc>
+    <loc>https://lavillecamille.netlify.app/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://lavillecamille.netlify.app/post/</loc>
+    <loc>https://lavillecamille.netlify.app/post/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

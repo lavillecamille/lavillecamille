@@ -84,8 +84,8 @@ bibtex_2academic <- function(bibfile,
       
       # Publication details: journal, volume, issue, page numbers and doi link
       publication <- x[["journal"]]
-      if (!is.na(x[["volume"]])) publication <- paste0(publication,
-                                                       ", (", x[["volume"]], ")")
+      #if (!is.na(x[["volume"]])) publication <- paste0(publication,
+                                                       #", (", x[["volume"]], ")")
       if (!is.na(x[["number"]])) publication <- paste0(publication,
                                                        ", ", x[["number"]])
       if (!is.na(x[["pages"]])) publication <- paste0(publication,

@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: http://lavillecamille.netlify.app/sitemap.xml
+Sitemap: https://lavillecamille.netlify.app/sitemap.xml
