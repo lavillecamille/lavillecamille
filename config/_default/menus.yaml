@@ -10,15 +10,15 @@ main:
   - name: Education and Experiences
     url: '#education'
     weight: 20
-  - name: Work in progress
-    url: '#projects'
-    weight: 30
  # - name: Talks
  #   url: '#talks'
  #   weight: 40
   - name: Publications
     url: '#publication'
-    weight: 50
+    weight: 30
+    - name: Ongoing projects and Replication files
+    url: '#projects'
+    weight: 50  
   - name: Contact
     url: '#contact'
     weight: 60
