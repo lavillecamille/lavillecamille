@@ -103,7 +103,7 @@ sections:
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
       date_start: "2023-09-18"
-      description: Climate resilient development in fragile and conflict affected settings (hollistic risk analysis). 
+      description: Climate resilient development in fragile and conflict affected settings. 
       location: Paris (France)
       title: Research Fellow, Climate and Security Risks
     - company: Chair of Defense Economics - IHEDN
