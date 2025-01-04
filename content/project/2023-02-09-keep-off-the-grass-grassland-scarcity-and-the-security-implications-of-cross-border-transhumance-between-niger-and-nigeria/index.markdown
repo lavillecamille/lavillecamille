@@ -6,7 +6,7 @@ date: '2021-09-09'
 slug: keep-off-the-grass-grassland-scarcity-and-the-security-implications-of-cross-border-transhumance-between-niger-and-nigeria
 categories: []
 tags:
-- Internal Conflicts
+- Project
 subtitle: ''
 summary: ''
 authors: [Camille Laville]

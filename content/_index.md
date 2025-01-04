@@ -162,15 +162,15 @@ sections:
     buttons:
     - name: All
       tag: '*'
-    - name: Internal Conflicts
-      tag: Internal Conflicts
-    - name: Arms Trade
-      tag: Arms Trade
+    - name: Ongoing Projects
+      tag: Project
+    - name: Replication Materials
+      tag: Replication
     default_button_index: 0
     filters:
       folders:
       - project
-    title: Projects
+    title: Projects and Replication Materials
   design:
     columns: "1"
     flip_alt_rows: false

@@ -6,7 +6,7 @@ date: '2021-02-09'
 slug: religious-authorities-peace-and-political-conflict-assessing-the-impacts-of-pope-john-paul-ii-s-international-travels
 categories: []
 tags:
-- Internal Conflicts
+- Project
 subtitle: ''
 summary: ''
 authors: [Camille Laville]
