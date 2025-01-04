@@ -1,7 +1,7 @@
 +++
 title = "The Political Economy of Military Aircraft, the Case of Europe"
 date = "2024-01-01"
-authors = [Droff, Josselin and Guiberteau, Jade and Laville, Camille and Malizard, Julien and Noël, Laure]
+authors = ["Droff, Josselin and Guiberteau, Jade and Laville, Camille and Malizard, Julien and Noël, Laure""]
 publication_types = ["5"]
 publication = "NA"
 publication_short = "NA"
