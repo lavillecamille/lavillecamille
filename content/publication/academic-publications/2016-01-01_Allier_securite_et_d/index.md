@@ -1,7 +1,7 @@
 +++
 title = "Allier securite et developpement, plaidoyer pour le Sahel"
 date = "2016-01-01"
-authors = ["Sylviane Guillaumont-Jeanneney et al."]
+authors = ["S. Guillaumont Jeanneney", "C. Angely", "A. Brachet", "P. Collier", "M. Garenne", "P. Guillaumont", "B. Joubert", "C. Laville", "J. de Melo", "S. Michailof", "B. Miribel", "O. Ray", "T. Zongo"]
 publication_types = ["5"]
 publication = "NA"
 publication_short = "NA"
