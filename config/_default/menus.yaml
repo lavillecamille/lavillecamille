@@ -10,7 +10,7 @@ main:
   - name: Education and Experiences
     url: '#education'
     weight: 20
-    - name: Projects/Replication Files
+  - name: Projects and Replication Files
     url: '#projects'
     weight: 30  
  # - name: Talks
@@ -22,6 +22,7 @@ main:
   - name: Contact
     url: '#contact'
     weight: 60
+    
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
