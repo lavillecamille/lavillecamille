@@ -98,7 +98,7 @@ sections:
   content:
     date_format: Dec 2021
     items:
-    - company: Global Risks and Resilience Team - ODI
+    - company: Global Risks and Resilience Teamss - ODI
       company_logo: ODI
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
