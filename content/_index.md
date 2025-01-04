@@ -157,6 +157,25 @@ sections:
 #  design:
 #    columns: "1"
 
+
+
+- block: collection
+  id: publication
+  content:
+    filters:
+      exclude_featured: true
+      folders:
+      - publication
+    text: |-
+      {{% callout note %}}
+      Quickly discover relevant content by [filtering publications](./publication/).
+      {{% /callout %}}
+    title: Recent Publications
+  design:
+    columns: "2"
+    view: citation
+    
+    
 - block: portfolio
   content:
     buttons:
@@ -176,25 +195,6 @@ sections:
     flip_alt_rows: false
     view: citation
   id: projects
-
-- block: collection
-  id: publication
-  content:
-    filters:
-      exclude_featured: true
-      folders:
-      - publication
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
-    title: Recent Publications
-  design:
-    columns: "2"
-    view: citation
-    
-    
-
       
 
 #- block: collection
