@@ -1,5 +1,5 @@
 ---
-bio: I hold a PhD in Economics from CERDI. My research interests include conflict economics, defense economics and development economics.
+bio: I hold a PhD in Economics from CERDI. My research interests encompass conflict economics, defense economics, development economics, and political economy.
 
 education:
   courses:
