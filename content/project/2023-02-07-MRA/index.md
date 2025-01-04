@@ -22,4 +22,4 @@ url_video: ""
 ---
 Citation:  Laville, C., & Mandon, P. (2024). Internal conflicts and shocks: A narrative meta-analysis. Journal of Peace Research, 0(0). https://doi.org/10.1177/00223433241283323
 
-
+You can access the replication material by following the "Code" URL and selecting "View Raw" to download the ZIP file.
