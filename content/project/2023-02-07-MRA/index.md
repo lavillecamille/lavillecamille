@@ -16,8 +16,7 @@ tags:
 - Internal Conflicts
 title: Replication material "Internal Conflicts and Shocks. A Narrative Meta-Analysis"
 subtitle: Joint with [**Pierre Mandon**](https://sites.google.com/view/pierremandon).
-url_code: ""
-url_pdf: https://github.com/lavillecamille/Replication-files/blob/main/Internal%20conflicts%20and%20shocks%20A%20narrative%20meta-analysis.zip"
+url_code: "https://github.com/lavillecamille/Replication-files/blob/main/Internal%20conflicts%20and%20shocks%20A%20narrative%20meta-analysis.zip"
 url_slides: ""
 url_video: ""
 ---
