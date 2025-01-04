@@ -227,7 +227,7 @@ sections:
 - block: contact
   content:
     address:
-      city: Paris
+      city: Paris, France
       country: France
       country_code: 
       postcode: ""
