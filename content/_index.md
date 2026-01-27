@@ -41,8 +41,7 @@ sections:
     username: admin
   id: about
 - block: features
-  content:
-      text: '![Map of my work locations](/images/workmap.png)'
+  content: '![Map of my work locations](/images/workmap.png)'
     items:
     - description:
       icon: 
