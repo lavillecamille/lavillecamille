@@ -59,5 +59,6 @@ I am a researcher specializing in conflict and defense economics. Currently, I h
 My research focuses on the local determinants of recurring conflict in developing countries and their impact on political decision-making related to security and development. I employ a holistic approach to conflict risk analysis, examining economic and political factors across multiple scales. I focus on understanding how local determinants, such as income changes and climate extremes, interact with broader conflict drivers, including real and perceived inequalities, politicization dynamics and the international arms trade. 
 
 I am committed to advancing multidisciplinary and international research on peace and security, and I am always seeking opportunities to collaborate with researchers and practitioners who share this vision.
+'![Map of my work locations](/images/workmap.png)'
 
 {style="text-align: justify;"}
