@@ -57,10 +57,11 @@ sections:
       name: Applied Microeconomics
     title: Interests
     
-- block: custom_html
+- block: markdown
   content:
-    html: '<img src="/images/workmap.png" alt="Map of my work locations" style="width:100%;">'
-  title: Geographic Experience Map
+    text: '![Map of my work locations](/images/workmap.png)'
+    subtitle: ""
+    title: Geographic Experience Map
 
 - block: accomplishments
   id: education
