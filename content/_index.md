@@ -41,7 +41,7 @@ sections:
     username: admin
   id: about
 - block: features
-  content: '![Map of my work locations](/images/workmap.png)'
+  content: 
     items:
     - description:
       icon: 
@@ -57,11 +57,7 @@ sections:
       name: Applied Microeconomics
     title: Interests
     
-- block: markdown
-  content:
-    text: '![Map of my work locations](/images/workmap.png)'
-    subtitle: ""
-    title: Geographic Experience Map
+
 
 - block: accomplishments
   id: education
