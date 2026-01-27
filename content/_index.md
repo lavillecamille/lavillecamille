@@ -55,12 +55,12 @@ sections:
       icon: 
       icon_pack: 
       name: Applied Microeconomics
-  title: Interests
+    title: Interests
     
 - block: markdown
   content:
     text: '<img src="/images/workmap.png" alt="Map of my work locations" style="width:100%; margin-top:1rem;">'
-  title: Geographic Experience Map
+    title: Geographic Experience Map
 
 - block: accomplishments
   id: education
