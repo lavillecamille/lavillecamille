@@ -1,7 +1,7 @@
 bibtex_2academic <- function(bibfile,
                              outfold,
                              abstract = FALSE,
-                             overwrite = FALSE) {
+                             overwrite = TRUE) {
   
   require(RefManageR)
   require(dplyr)
