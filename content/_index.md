@@ -67,6 +67,8 @@ sections:
       <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">
         Base map: Natural Earth, via the rnaturalearth R package
       </p>
+    title: Interests & Expertise
+      
       
 - block: accomplishments
   id: education
