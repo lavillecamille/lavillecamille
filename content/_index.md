@@ -55,16 +55,16 @@ sections:
       icon: 
       icon_pack: 
       name: Climate & Security Nexus
-    - description: 
-      icon: 
-      icon_pack: 
-      name: Risk & Resilience Assessment      
-    title: Interests
+    title: Interests & Expertise
     
 - block: markdown
+  title: Geographic Experience Map
   content:
-    text: '<img src="/images/workmap.png" alt="Map of my work locations" style="width:100%; margin-top:1rem;">'
-    title: Geographic Experience Map
+    text: |
+      <img src="/images/workmap.png" alt="Map of my work locations" style="width:100%; margin-top:1rem;">
+      <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">
+        Base map: Natural Earth, via the rnaturalearth R package
+      </p>
 
 - block: accomplishments
   id: education
