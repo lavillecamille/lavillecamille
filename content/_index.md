@@ -58,7 +58,7 @@ sections:
     title: Interests & Expertise
     
 - block: markdown
-  title: Geographic Experience Map
+    title: Geographic Experience Map
   content:
     text: |
       <img src="/images/workmap.png" alt="Map of my work locations" style="width:100%; margin-top:1rem;">
