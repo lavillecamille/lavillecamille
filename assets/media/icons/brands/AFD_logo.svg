@@ -484,17 +484,17 @@
   <g class="logo">
     <g clip-path="url(#clip3)" transform="matrix(7.05555 0 0 7.05556 -2143.9715 -5332.3169)">
       <g clip-path="url(#clip4)">
-        <path fill="url(#linear0)" d="m 335.35547,783.52734 v -26.10547 h -25.7461 v 26.10547 z m 0,0"/>
+        <path fill="url(#linear0)" d="m 335.35547,783.52734 v -26.10547 h -25.7461 v 26.10547 z m 0,0" />
       </g>
     </g>
     <g clip-path="url(#clip5)" transform="matrix(7.05555 0 0 7.05556 -2143.9715 -5332.3169)">
       <g clip-path="url(#clip6)">
-        <path fill="url(#linear1)" d="m 305.52734,786.69922 v -26.10938 h 25.74219 v 26.10938 z m 0,0"/>
+        <path fill="url(#linear1)" d="m 305.52734,786.69922 v -26.10938 h 25.74219 v 26.10938 z m 0,0" />
       </g>
     </g>
     <g clip-path="url(#clip7)" transform="matrix(7.05555 0 0 7.05556 -2143.9715 -5332.3169)">
       <g clip-path="url(#clip8)">
-        <rect fill="url(#linear2)" width="112" height="114" x="0" y="0" transform="matrix(.24064 0 0 .24063 306.894 758.354)"/>
+        <rect fill="url(#linear2)" width="112" height="114" x="0" y="0" transform="matrix(.24064 0 0 .24063 306.894 758.354)" />
       </g>
     </g>
   </g>
