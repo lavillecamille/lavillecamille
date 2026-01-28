@@ -111,7 +111,7 @@ sections:
     date_format: Dec 2021
     items:
     - company: Global Risks and Resilience Team - ODI Global
-      company_logo: ODI
+      company_logo: ODIG
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
       date_start: "2023-09-18"
