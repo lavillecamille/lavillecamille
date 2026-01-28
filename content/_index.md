@@ -71,26 +71,34 @@ sections:
       date_end: "2021-12-15"
       date_start: "2017-10-01"
       description: ""
-      organization: CERDI
+      organization: Université Clermont Auvergne, Centre d’Études et de Recherches sur le Développement International (CERDI), France
       organization_url: https://cerdi.uca.fr/#/admin
-      title: PhD in Development Economics
+      title: PhD in Economics
       url: ""
-    - certificate_url: 
-      date_end: "2021-12-15"
-      date_start: "2017-10-01"
-      description: "The Institute for Strategic Research"
-      organization: IRSEM
-      organization_url: https://www.irsem.fr/
-      title: Associate PhD
-      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     - certificate_url: ""
       date_end: "2015-10-21"
       date_start: "2014-10-01"
-      description: "M.Sc. in Research and M.Sc. in Project Management"
-      organization: Université Clermont Auvergne
+      description: "M.Sc. in Law, Economics and Management, speciality Development Economics (Research)"
+      organization: Université Clermont Auvergne, France
       organization_url: https://www.uca.fr/
       title: M.Sc. in Economics
       url: ""
+    - certificate_url: ""
+      date_end: "2015-10-21"
+      date_start: "2014-10-01"
+      description: "M.Sc. in Law, Economics and Management, speciality Development Economics (Project Analysis)"
+      organization: Université Clermont Auvergne, France
+      organization_url: https://www.uca.fr/
+      title: M.Sc. in Economics
+      url: ""
+    - certificate_url: ""
+      date_end: "2015-10-21"
+      date_start: "2014-10-01"
+      description: "B.Sc. in Economics and Management"
+      organization: Université Clermont Auvergne, France
+      organization_url: https://www.uca.fr/
+      title: M.Sc. in Economics
+      url: ""      
     subtitle: null
     title: Education
     
@@ -107,23 +115,47 @@ sections:
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
       date_start: "2023-09-18"
-      description: Climate resilient development in fragile and conflict affected settings. 
+      description: Applied, multi-country research on the conflict–climate–environment nexus, with the aim of informing policy and operational decision-making for donor agencies, governments, and international programmes. The role combines field-informed analysis, multi-stakeholder engagement, and convening policy dialogue, with contributions to work on displacement, conflict economies, and population movements across fragile and conflict-affected contexts in Africa, the Middle East, and the Pacific.
       location: Paris (France)
       title: Research Fellow, Climate and Security Risks
-    - company: Chair of Defense Economics - IHEDN
+    - company: The World Bank
+      company_logo: 
+      company_url: ""
+      date_end: "2023-09-01"
+      date_start: "2023-05-01"
+      description: Review of the literature on the links between social protection, social cohesion and conflict. 
+      location: Washington DC
+      title: STT consultant
+    - company: Chair of Defense Economics, Institut des Hautes Etudes de Défense Nationale - IHEDN
       company_logo: ihedn
       company_url: ""
       date_end: "2023-09-01"
       date_start: "2021-04-01"
-      description: Determinants of supply/demand for major conventional arms (international scale of conflict economics). 
+      description: Academic research on Defence and Peace Economics (e.g., determinants of supply/demand for major conventional arms). 
       location: France
       title: Researcher
+    - company: The Institute for Strategic Research - IRSEM
+      company_logo: 
+      company_url: "https://www.irsem.fr/"
+      date_end: "2021-12-15"
+      date_start: "2017-10-01"
+      description: Determinants of supply/demand for major conventional arms (international scale of conflict economics). 
+      location: France
+      title: Associate PhD
+    - company: Agence Française de Développement - AFD
+      company_logo: 
+      company_url: https://www.afd.fr
+      date_end: "2017-07-01"
+      date_start: "2017-06-01"
+      description: Research on socio-political risk analysis.
+      location: France
+      title: Research Assistant      
     - company: Ferdi
       company_logo: ferdi
       company_url: https://ferdi.fr/
       date_end: "2017-10-01"
       date_start: "2015-12-01"
-      description: Practitioners' vison of the Defense, Development and Diplomatic (3D) approach to peace and security in the Sahel.
+      description: Research on the Defense, Development and Diplomatic (3D) approach to peace and security in the Sahel.
       location: France
       title: Research Assistant
     title: Experiences
