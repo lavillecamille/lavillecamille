@@ -127,7 +127,7 @@ sections:
       location: Washington DC
       title: STT consultant
     - company: Chair of Defense Economics, Institut des Hautes Etudes de Défense Nationale - IHEDN
-      company_logo: ihedn
+      company_logo: IHEDN
       company_url: ""
       date_end: "2023-09-01"
       date_start: "2021-04-01"
@@ -143,7 +143,7 @@ sections:
       location: France
       title: Associate PhD
     - company: Macroeconomic Analysis and Country Risk Division, Agence Française de Développement - AFD
-      company_logo: AFD_logo
+      company_logo: 
       company_url: https://www.afd.fr
       date_end: "2017-07-01"
       date_start: "2017-06-01"
