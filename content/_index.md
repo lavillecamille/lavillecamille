@@ -60,14 +60,12 @@ sections:
 - block: markdown
   content:
     text: |
-      <h2 class="block-title">Geographic Experience Map</h2>
-
       <img src="/images/workmap.png" alt="Map of my work locations" style="width:100%; margin-top:1rem;">
 
       <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">
         Base map: Natural Earth, via the rnaturalearth R package
       </p>
-    title: Interests & Expertise
+    title: Geographic Experience
       
       
 - block: accomplishments
