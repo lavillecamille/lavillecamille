@@ -58,13 +58,13 @@ sections:
     title: Interests & Expertise
     
 - block: markdown
+  title: Geographic Experience Map
   content:
-    text:|
+    text: |
       <img src="/images/workmap.png" alt="Map of my work locations" style="width:100%; margin-top:1rem;">
       <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">
         Base map: Natural Earth, via the rnaturalearth R package
       </p>
-    title: Geographic Experience Map
 
 - block: accomplishments
   id: education
