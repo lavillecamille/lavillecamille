@@ -110,12 +110,12 @@ sections:
   content:
     date_format: Dec 2021
     items:
-    - company: Global Risks and Resilience Team - ODI
+    - company: Global Risks and Resilience Team - ODI Global
       company_logo: ODI
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
       date_start: "2023-09-18"
-      description: Applied, multi-country research on the conflict–climate–environment nexus, with the aim of informing policy and operational decision-making for donor agencies, governments, and international programmes. The role combines field-informed analysis, multi-stakeholder engagement, and convening policy dialogue, with contributions to work on displacement, conflict economies, and population movements across fragile and conflict-affected contexts in Africa, the Middle East, and the Pacific.
+      description: Applied research and multi-stakeholder engagement on the conflict–climate–environment nexus.
       location: Paris (France)
       title: Research Fellow, Climate and Security Risks
     - company: The World Bank
@@ -123,7 +123,7 @@ sections:
       company_url: ""
       date_end: "2023-09-01"
       date_start: "2023-05-01"
-      description: Review of the literature on the links between social protection, social cohesion and conflict. 
+      description: Effects of social protection programmes on poverty, social cohesion and conflict dynamics. 
       location: Washington DC
       title: STT consultant
     - company: Chair of Defense Economics, Institut des Hautes Etudes de Défense Nationale - IHEDN
@@ -139,23 +139,23 @@ sections:
       company_url: "https://www.irsem.fr/"
       date_end: "2021-12-15"
       date_start: "2017-10-01"
-      description: Determinants of supply/demand for major conventional arms (international scale of conflict economics). 
+      description: Methodological issues in analysing the structural causes of conflicts in developing countries.
       location: France
       title: Associate PhD
-    - company: Agence Française de Développement - AFD
+    - company: Macroeconomic Analysis and Country Risk Division, Agence Française de Développement - AFD
       company_logo: 
       company_url: https://www.afd.fr
       date_end: "2017-07-01"
       date_start: "2017-06-01"
-      description: Research on socio-political risk analysis.
+      description: Methodology for analysing socio-political risks.
       location: France
-      title: Research Assistant      
+      title: STT consultant    
     - company: Ferdi
       company_logo: ferdi
       company_url: https://ferdi.fr/
       date_end: "2017-10-01"
       date_start: "2015-12-01"
-      description: Research on the Defense, Development and Diplomatic (3D) approach to peace and security in the Sahel.
+      description: Defense, Development and Diplomatic (3D) approach to peace and security in the Sahel.
       location: France
       title: Research Assistant
     title: Experiences
