@@ -97,7 +97,7 @@ sections:
       description: "B.Sc. in Economics and Management"
       organization: Université Clermont Auvergne, France
       organization_url: https://www.uca.fr/
-      title: M.Sc. in Economics
+      title: B.Sc. in Economics
       url: ""      
     subtitle: null
     title: Education
