@@ -111,7 +111,7 @@ sections:
     date_format: Dec 2021
     items:
     - company: Global Risks and Resilience Team - ODI Global
-      company_logo: ODIG
+      company_logo: odig
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
       date_end: ""
       date_start: "2023-09-18"
@@ -127,7 +127,7 @@ sections:
       location: Washington DC
       title: STT consultant
     - company: Chair of Defense Economics, Institut des Hautes Etudes de Défense Nationale - IHEDN
-      company_logo: IHEDN
+      company_logo: ihedn
       company_url: ""
       date_end: "2023-09-01"
       date_start: "2021-04-01"
