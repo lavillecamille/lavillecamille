@@ -46,15 +46,19 @@ sections:
     - description:
       icon: 
       icon_pack: 
-      name: Development Economics
+      name: Conflict Analysis
     - description:
       icon: 
       icon_pack: 
-      name: Conflict and Defense Economics
+      name: Fragile & NSAG-Controlled Contexts
     - description: 
       icon: 
       icon_pack: 
-      name: Applied Microeconomics
+      name: Climate & Security Nexus
+    - description: 
+      icon: 
+      icon_pack: 
+      name: Risk & Resilience Assessment      
     title: Interests
     
 - block: markdown
