@@ -23,7 +23,7 @@ interests:
 - Political Economics
 last_name: Laville
 organizations:
-- name: ODI - Global Risks and Resilience
+- name: ODI Global - Global Risks and Resilience
   url: https://odi.org/en/about/our-work/global-risks-and-resilience/
 role: Research Fellow Climate and Security Risk
 social:
