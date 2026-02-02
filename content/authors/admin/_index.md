@@ -54,7 +54,7 @@ superuser: true
 title: Camille Laville
 ---
 
-I am a development economist with over 10 years of experience working on fragile and conflict-affected settings. Currently, I hold the position of Research Fellow in the Global Risks and Resilience team at [**ODI**](https://odi.org/en/about/our-work/global-risks-and-resilience/). Additionally, I serve as an Associate Researcher at the [**Center for Studies and Research on International Development (CERDI)**](https://cerdi.uca.fr/). 
+I am a development economist with over 10 years of experience working on fragile and conflict-affected settings. Currently, I hold the position of Research Fellow in the Global Risks and Resilience team at [**ODI Global**](https://odi.org/en/about/our-work/global-risks-and-resilience/). I am also an Associate Researcher at the [**Center for Studies and Research on International Development (CERDI)**](https://cerdi.uca.fr/), and a [**Civil War Path**](https://www.civilwarpaths.org/) fellow.
 
 I am a systemic risk analyst working on the messy space where conflict, climate risks, environmental change and fragile economies collide. My background is in development and conflict economics, applied micro-analysis and strategic/war studies.
 
