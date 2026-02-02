@@ -56,6 +56,9 @@ title: Camille Laville
 
 I am a development economist with over 10 years of experience working on fragile and conflict-affected settings. Currently, I hold the position of Research Fellow in the Global Risks and Resilience team at [**ODI**](https://odi.org/en/about/our-work/global-risks-and-resilience/). Additionally, I serve as an Associate Researcher at the [**Center for Studies and Research on International Development (CERDI)**](https://cerdi.uca.fr/). 
 
-I am a systemic risk analyst focusing on the interplay of conflict, climate, and economic systems in fragile environments. My expertise spans development and conflict economics, applied microeconomic analysis, and evidence‑into‑action research to support humanitarian, development, and peacebuilding decision-making. I study how structural risks — from governance fragmentation to climate shocks and non‑state armed group dynamics — shape community resilience and strategic choices. I translate complex data and field insights into practical guidance for policy, program design, and advisory work that bridges research and real-world impact.
+I am a systemic risk analyst working on the messy space where conflict, climate risks, environmental change and fragile economies collide. My background is in development and conflict economics, applied micro-analysis and strategic/war studies.
 
+I look at how governance fragmentation, exposure to weather extremes and shifting seasons, and armed-group dynamics play out across local, national and regional levels to shape what people can actually do to survive, adapt and stay in place—or are forced to move.
+
+I also study what these places teach us about managing risk, scarcity and uncertainty — not just how they suffer from it. My work turns complex data and field realities into practical guidance for humanitarian, development and peacebuilding actors, helping make policy and programming better aligned with how risk really works on the ground.
 {style="text-align: justify;"}
