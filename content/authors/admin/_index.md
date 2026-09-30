@@ -22,10 +22,11 @@ interests:
 - Applied Microeconomics
 - Political Economics
 last_name: Laville
-organizations:
-- name: ODI Global - Global Risks and Resilience
-  url: https://odi.org/en/about/our-work/global-risks-and-resilience/
-role: Research Fellow Climate and Security Risk
+- `organizations` :
+  - *[Independent researcher and consultant — si c'est ton statut au 1er octobre]*
+  - *Associate Researcher, CERDI* — `https://cerdi.uca.fr/`
+  - *Research Fellow, Civil War Paths (University of York)* — `https://www.civilwarpaths.org/`
+role: Economist (PhD) | Conflict, climate and natural resources in fragile states
 social:
 - icon: envelope
   icon_pack: fas
