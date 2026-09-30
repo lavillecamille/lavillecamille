@@ -204,7 +204,7 @@ sections:
     text: |-
       laville.ecodef[at]gmail.com
 
-      Open to research collaborations, and to selected advisory work on conflict and climate-security analysis, evidence reviews, scenario and risk analysis, and programme and financing assessments in fragile settings, in French and English. See [selected assignments](/assignments/).
+      Open to research collaborations, and to selected advisory work on conflict and climate-security analysis, evidence reviews, scenario and risk analysis, and programme and financing assessments in fragile settings, in French and English.
     address:
       city: Paris
       country: France
