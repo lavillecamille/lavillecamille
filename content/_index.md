@@ -119,7 +119,7 @@ sections:
     - company: Global Risks and Resilience Team - ODI Global
       company_logo: ODIG
       company_url: https://odi.org/en/about/our-work/global-risks-and-resilience/
-      date_end: ""
+      date_end: "2026-09-30"
       date_start: "2023-09-18"
       description: Applied research and multi-stakeholder engagement on the conflict–climate–environment nexus.
       location: Paris (France)
@@ -136,7 +136,7 @@ sections:
       company_logo: ihedn
       company_url: ""
       date_end: "2023-09-01"
-      date_start: "2021-04-01"
+      date_start: "2022-03-01"
       description: Academic research on Defence and Peace Economics. 
       location: France
       title: Researcher
@@ -151,16 +151,16 @@ sections:
     - company: Macroeconomic Analysis and Country Risk Division, Agence Française de Développement - AFD
       company_logo: 
       company_url: https://www.afd.fr
-      date_end: "2017-07-01"
-      date_start: "2017-06-01"
+      date_end: "2017-07-19"
+      date_start: "2017-06-12"
       description: Methodology for analysing socio-political risks.
       location: France
       title: STT consultant    
     - company: Ferdi
       company_logo: ferdi
       company_url: https://ferdi.fr/
-      date_end: "2017-10-01"
-      date_start: "2015-12-01"
+      date_end: "2017-09-30"
+      date_start: "2015-12-11"
       description: Defense, Development and Diplomatic (3D) approach to peace and security in the Sahel.
       location: France
       title: Research Assistant
