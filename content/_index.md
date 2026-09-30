@@ -303,7 +303,7 @@ sections:
 #   - Wednesday 09:00 to 10:00
 #   phone: 888 888 88 88
 #   subtitle: null
-    text: laville.ecodef[at]gmail.com OR c.laville[at]odi.org.uk
+    text: laville.ecodef[at]gmail.com 
     title: Contact
   design:
     columns: "2"
