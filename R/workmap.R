@@ -35,23 +35,23 @@ pts <- world %>%
   st_point_on_surface()
 
 map <- ggplot() +
-  geom_sf(data = world, fill = "white", colour = "grey8", linewidth = 0.1) +
-  geom_sf(data = pts, aes(colour = pole, shape = mode), size = 3.2, stroke = 1.2) +
+  geom_sf(data = world, fill = "#182061", colour = "#FFFFFF", linewidth = 0.6) +
+  geom_sf(data = pts, aes(colour = pole, shape = mode), size = 7.2, stroke = 2) +
   scale_shape_manual(values = c(field = 16, remote = 1),
                      labels = c(field = "Fieldwork-informed research", remote = "Remote / desk research")) +
   scale_colour_manual(breaks = c("Chad and the Sahel", "Central Africa", "Middle East",
                                  "Papua New Guinea and the Pacific"),
-                      values = c("Chad and the Sahel"               = "#B2182B",
-                                 "Central Africa"                   = "#E08214",
-                                 "Middle East"                      = "#2166AC",
-                                 "Papua New Guinea and the Pacific" = "#1B7837")) +
-  coord_sf(ylim = c(-58, 84), expand = FALSE) +
+                      values = c("Chad and the Sahel"               = "#FF6B5A",
+                                 "Central Africa"                   = "#FFB000",
+                                 "Middle East"                      = "#FF1493",
+                                 "Papua New Guinea and the Pacific" = "#00BFC4")) +
+  coord_sf(xlim = c(-25, 165), ylim = c(-45, 75), expand = FALSE, clip = "on") +
   theme_void() +
-  theme(panel.background  = element_rect(fill = "#D0D0D0", colour = NA),
-        plot.background   = element_rect(fill = "#D0D0D0", colour = NA),
+  theme(panel.background  = element_rect(fill = "#FAF4E8", colour = NA),
+        plot.background   = element_rect(fill = "#FAF4E8", colour = NA),
         legend.position   = "bottom",
         legend.box        = "vertical",
         legend.title      = element_blank(),
-        legend.text       = element_text(size = 11))
+        legend.text       = element_text(size = 15))
 
-ggsave("static/images/workmap.png", map, width = 12, height = 6.6, dpi = 250)
+ggsave("static/images/workmap.png", map, width = 12, height = 7, dpi = 250)
