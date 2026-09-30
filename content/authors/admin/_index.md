@@ -57,13 +57,8 @@ superuser: true
 title: Camille Laville
 ---
 
-Welcome to my personal website!
+I am an economist working on the structural causes of conflict and on how climate, land and natural resources shape risk and resilience in fragile states: in Chad and the Sahel, Central Africa, the Middle East and the Pacific.
 
-I am a development economist with over 10 years of experience working on fragile and conflict-affected settings. Currently, I hold the position of Research Fellow in the Global Risks and Resilience team at [**ODI Global**](https://odi.org/en/about/our-work/global-risks-and-resilience/). I am also an Associate Researcher at the [**Center for Studies and Research on International Development (CERDI)**](https://cerdi.uca.fr/), and a [**Civil War Path**](https://www.civilwarpaths.org/) Fellow.
-
-I am a systemic risk analyst working on the messy space where conflict, climate risks, environmental change and fragile economies collide. My background is in development and conflict economics, applied micro-analysis and strategic/war studies.
-
-I look at how governance fragmentation, exposure to weather extremes and shifting seasons, and armed-group dynamics play out across local, national and regional levels to shape what people can actually do to survive, adapt and stay in place—or are forced to move.
-
-I also study what these places teach us about managing risk, scarcity and uncertainty — not just how they suffer from it. My work turns complex data and field realities into practical guidance for humanitarian, development and peacebuilding actors, helping make policy and programming better aligned with how risk really works on the ground.
+My background is in development and conflict economics, applied micro-analysis, political economy and strategic/war studies.
+I work in the field alongside national partners whenever access allows, which in conflict settings is not always the case. At the core of my methods are satellite and geolocated event data, whose strengths and limits I have studied closely, and qualitative interviews, combined with spatial econometrics, meta-analysis and scenario building. I work in French and English, between conflict economics and applied policy research.
 {style="text-align: justify;"}
