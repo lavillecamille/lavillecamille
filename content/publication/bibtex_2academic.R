@@ -1,146 +1,131 @@
+
 bibtex_2academic <- function(bibfile,
                              outfold,
-                             abstract = FALSE,
-                             overwrite = FALSE) {
-  
+                             abstract = TRUE,
+                             overwrite = TRUE,
+                             clean = TRUE) {
+
   require(RefManageR)
   require(dplyr)
   require(stringr)
-  require(anytime)
   require(tibble)
-  
-  # Import the bibtex file and convert to data.frame
-  mypubs   <- ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
+
+  mypubs <- ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
     as.data.frame() %>%
-    rownames_to_column() %>% # retain rownames (as labels for bibtex re-export)
-    mutate_all(funs(str_remove_all(.,"[{}\"]"))) %>%   ### remove {}" from bibtext entries
-    mutate_all(funs(str_replace_all(.,'\\\\%', '%')))  ### some replace double escaped % for markdown
-  
-  
-  # make bibtype the name of the type column (default for WriteBib)
+    rownames_to_column() %>%
+    mutate(across(everything(), ~ str_remove_all(.x, "[{}\"]"))) %>%
+    mutate(across(everything(), ~ str_replace_all(.x, "\\\\%", "%")))
+
   if (has_name(mypubs, "document_type") & !(has_name(mypubs, "bibtype"))) {
     mypubs <- mypubs %>% rename(bibtype = document_type)
   }
-  
-  # assign "categories" to the different types of publications
-  mypubs   <- mypubs %>%
-    dplyr::mutate(
-      pubtype = dplyr::case_when(bibtype == "Article" ~ "2",
-                                 bibtype == "Article in Press" ~ "2",
-                                 bibtype == "InProceedings" ~ "1",
-                                 bibtype == "Proceedings" ~ "1",
-                                 bibtype == "Conference" ~ "1",
-                                 bibtype == "Conference Paper" ~ "1",
-                                 bibtype == "MastersThesis" ~ "3",
-                                 bibtype == "PhdThesis" ~ "3",
-                                 bibtype == "Manual" ~ "4",
-                                 bibtype == "TechReport" ~ "4",
-                                 bibtype == "Book" ~ "5",
-                                 bibtype == "InCollection" ~ "6",
-                                 bibtype == "InBook" ~ "6",
-                                 bibtype == "Misc" ~ "0",
-                                 TRUE ~ "0"))
-  
-  # create a function which populates the md template based on the info
-  # about a publication
-  create_md <- function(x) {
-    
-    # define a date and create filename by appending date and start of title
-    if (!is.na(x[["year"]])) {
-      x[["date"]] <- paste0(x[["year"]], "-01-01")
-    } else {
-      x[["date"]] <- "2999-01-01"
+
+  # 0 = Uncategorized, 1 = Conference paper, 2 = Journal article,
+  # 3 = Manuscript, 4 = Report, 5 = Book, 6 = Book section
+  mypubs <- mypubs %>%
+    mutate(pubtype = case_when(bibtype %in% c("Article", "Article in Press") ~ "2",
+                               bibtype %in% c("InProceedings", "Proceedings", "Conference",
+                                              "Conference Paper") ~ "1",
+                               bibtype %in% c("MastersThesis", "PhdThesis", "Unpublished") ~ "3",
+                               bibtype %in% c("Manual", "TechReport", "Report") ~ "4",
+                               bibtype == "Book" ~ "5",
+                               bibtype %in% c("InCollection", "InBook") ~ "6",
+                               TRUE ~ "0"))
+
+  dir.create(outfold, showWarnings = FALSE, recursive = TRUE)
+
+  # Supprime les dossiers générés qui ne correspondent plus à une entrée du .bib
+  if (clean) {
+    old <- setdiff(list.dirs(outfold, recursive = FALSE, full.names = FALSE), mypubs$rowname)
+    if (length(old) > 0) {
+      message("Dossiers supprimés (plus dans le .bib) : ", paste(old, collapse = ", "))
+      unlink(file.path(outfold, old), recursive = TRUE)
     }
-    
-    foldername <- paste(x[["date"]], x[["title"]] %>%
-                          str_replace_all(fixed(" "), "_") %>%
-                          str_remove_all(fixed(":")) %>%
-                          str_sub(1, 20), sep = "_")
-    
-    #folder = paste0(outfold, "/", foldername)
-    dir.create(file.path(outfold, foldername), showWarnings = FALSE)
-    filename = "index.md"
-    # start writing
-    outsubfold = paste(outfold, foldername, sep="/")
-    # start writing
-    if (!file.exists(file.path(outsubfold, filename)) | overwrite) {
-      fileConn <- file.path(outsubfold, filename)
-      write("+++", fileConn)
-      
-      # Title and date
-      write(paste0("title = \"", x[["title"]], "\""), fileConn, append = T)
-      write(paste0("date = \"", anydate(x[["date"]]), "\""), fileConn, append = T)
-      
-      # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-      auth_hugo <- str_replace_all(x["author"], " and ", "\", \"")
-      auth_hugo <- stringi::stri_trans_general(auth_hugo, "latin-ascii")
-      write(paste0("authors = [\"", auth_hugo,"\"]"), fileConn, append = T)
-      
-      # Publication type. Legend:
-      # 0 = Uncategorized, 1 = Conference paper, 2 = Journal article
-      # 3 = Manuscript, 4 = Report, 5 = Book,  6 = Book section
-      write(paste0("publication_types = [\"", x[["pubtype"]],"\"]"),
-            fileConn, append = T)
-      
-      # Publication details: journal, volume, issue, page numbers and doi link
-      publication <- x[["journal"]]
-      #if (!is.na(x[["volume"]])) publication <- paste0(publication,
-                                                       #", (", x[["volume"]], ")")
-      if (!is.na(x[["number"]])) publication <- paste0(publication,
-                                                       ", ", x[["number"]])
-      if (!is.na(x[["pages"]])) publication <- paste0(publication,
-                                                      ", _pp. ", x[["pages"]], "_")
-      if (!is.na(x[["doi"]])) publication <- paste0(publication,
-                                                    ", ", paste0("https://doi.org/",
-                                                                 x[["doi"]]))
-      
-      write(paste0("publication = \"", publication,"\""), fileConn, append = T)
-      write(paste0("publication_short = \"", publication,"\""),fileConn, append = T)
-      
-      # Abstract and optional shortened version.
-      if (abstract) {
-        write(paste0("abstract = \"", x[["abstract"]],"\""), fileConn, append = T)
-      } else {
-        write("abstract = \"\"", fileConn, append = T)
-      }
-      write(paste0("abstract_short = \"","\""), fileConn, append = T)
-      
-      # other possible fields are kept empty. They can be customized later by
-      # editing the created md
-      
-      write("image_preview = \"\"", fileConn, append = T)
-      write("selected = false", fileConn, append = T)
-      write("projects = []", fileConn, append = T)
-      write("tags = []", fileConn, append = T)
-      #links
-      write(paste0("url_pdf = \"", x[["url"]],"\""), fileConn, append = T)
-      write("url_preprint = \"\"", fileConn, append = T)
-      write("url_code = \"\"", fileConn, append = T)
-      write("url_dataset = \"\"", fileConn, append = T)
-      write("url_project = \"\"", fileConn, append = T)
-      write("url_slides = \"\"", fileConn, append = T)
-      write("url_video = \"\"", fileConn, append = T)
-      write("url_poster = \"\"", fileConn, append = T)
-      write("url_source = \"\"", fileConn, append = T)
-      #other stuff
-      write("math = true", fileConn, append = T)
-      write("highlight = true", fileConn, append = T)
-      # Featured image
-      write("[header]", fileConn, append = T)
-      write("image = \"\"", fileConn, append = T)
-      write("caption = \"\"", fileConn, append = T)
-      
-      write("+++", fileConn, append = T)
-    }
-    # convert entry back to data frame
-    df_entry = as.data.frame(as.list(x), stringsAsFactors=FALSE) %>%
-      column_to_rownames("rowname")
-    
-    # write cite.bib file to outsubfolder
-    WriteBib(as.BibEntry(df_entry[1,]), paste(outsubfold, "cite.bib", sep="/"))
   }
-  # apply the "create_md" function over the publications list to generate
-  # the different "md" files.
-  
-  apply(mypubs, FUN = function(x) create_md(x), MARGIN = 1)
+
+  # Valeur d'un champ, ou NA s'il est absent ou vide
+  fld <- function(x, f) {
+    if (!f %in% names(x)) return(NA_character_)
+    v <- x[[f]]
+    if (is.na(v) || str_trim(v) == "") NA_character_ else str_squish(v)
+  }
+  q <- function(s) paste0("\"", str_replace_all(s, "\"", "\\\\\""), "\"")
+  month_num <- function(m) {
+    if (is.na(m)) return("01")
+    i <- match(tolower(str_sub(m, 1, 3)), tolower(month.abb))
+    if (is.na(i)) i <- suppressWarnings(as.integer(m))
+    if (is.na(i)) i <- 1
+    sprintf("%02d", i)
+  }
+
+  create_md <- function(x) {
+    year <- fld(x, "year")
+    date <- if (is.na(year)) "2999-01-01" else paste0(year, "-", month_num(fld(x, "month")), "-01")
+
+    # Référence affichée sous le titre
+    italic <- !is.na(fld(x, "journal")) || !is.na(fld(x, "booktitle"))
+    venue  <- coalesce(fld(x, "journal"), fld(x, "booktitle"), fld(x, "institution"),
+                       fld(x, "publisher"), fld(x, "howpublished"))
+    pub <- if (is.na(venue)) "" else if (italic) paste0("*", venue, "*") else venue
+    if (x[["bibtype"]] %in% c("InCollection", "InBook")) pub <- paste0("In ", pub)
+    if (!is.na(fld(x, "type"))) pub <- paste0(pub, ", ", fld(x, "type"))
+    vol <- fld(x, "volume"); num <- fld(x, "number")
+    if (!is.na(vol)) {
+      pub <- paste0(pub, ", ", vol, if (!is.na(num)) paste0("(", num, ")") else "")
+    } else if (!is.na(num)) {
+      pub <- paste0(pub, ", no. ", num)
+    }
+    pg <- fld(x, "pages")
+    if (!is.na(pg)) pub <- paste0(pub, ", pp. ", str_replace(pg, "-+", "–"))
+    if (!is.na(fld(x, "note"))) pub <- paste0(pub, ". ", fld(x, "note"))
+    pub <- str_remove(pub, "^, ")
+
+    # Liens : PDF si l'adresse se termine par .pdf, sinon "Source"
+    u <- fld(x, "url")
+    if (!is.na(u) && !str_detect(u, "^https?://")) u <- paste0("https://", u)
+    url_pdf    <- if (!is.na(u) &&  str_detect(u, "\\.pdf$")) u else ""
+    url_source <- if (!is.na(u) && !str_detect(u, "\\.pdf$")) u else ""
+
+    # Tags = pôles du site, depuis keywords
+    kw   <- fld(x, "keywords")
+    tags <- if (is.na(kw)) character(0) else str_trim(str_split(kw, ",")[[1]])
+
+    authors <- str_split(fld(x, "author"), " and ")[[1]]
+
+    outsubfold <- file.path(outfold, x[["rowname"]])
+    dir.create(outsubfold, showWarnings = FALSE)
+    fileConn <- file.path(outsubfold, "index.md")
+
+    if (!file.exists(fileConn) | overwrite) {
+      lines <- c(
+        "+++",
+        paste0("title = ", q(fld(x, "title"))),
+        paste0("date = ", q(date)),
+        paste0("authors = [", paste(sapply(authors, q), collapse = ", "), "]"),
+        paste0("publication_types = [", q(x[["pubtype"]]), "]"),
+        paste0("publication = ", q(pub)),
+        paste0("publication_short = ", q(pub)),
+        paste0("abstract = ", q(if (abstract && !is.na(fld(x, "abstract"))) fld(x, "abstract") else "")),
+        paste0("doi = ", q(coalesce(fld(x, "doi"), ""))),
+        "featured = false",
+        paste0("tags = [", paste(sapply(tags, q), collapse = ", "), "]"),
+        paste0("url_pdf = ", q(url_pdf)),
+        paste0("url_source = ", q(url_source)),
+        "url_code = \"\"",
+        "url_dataset = \"\"",
+        "+++"
+      )
+      writeLines(lines, fileConn, useBytes = FALSE)
+    }
+
+    # cite.bib : l'entrée seule, pour le bouton "Cite"
+    df_entry <- as.data.frame(as.list(x), stringsAsFactors = FALSE) %>%
+      select(-pubtype) %>%
+      select(where(~ !is.na(.x))) %>%
+      column_to_rownames("rowname")
+    WriteBib(as.BibEntry(df_entry[1, ]), file.path(outsubfold, "cite.bib"), verbose = FALSE)
+  }
+
+  invisible(apply(mypubs, MARGIN = 1, FUN = create_md))
+  message(nrow(mypubs), " publications générées dans ", outfold)
 }
