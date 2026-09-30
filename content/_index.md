@@ -195,20 +195,7 @@ sections:
   design:
     columns: "2"
 
-- block: markdown
-  id: service
-  content:
-    title: Teaching, service and uptake
-    text: |
-      **Teaching.** Guest lecturer, University of Fribourg, MA in Political Economy (2024–2026); Université Paris 1 Panthéon-Sorbonne, master's for managers and engineers of the DGA (2023).
 
-      **Referee.** *Communications Earth & Environment*, *Defence and Peace Economics*, *Revue d'économie politique*, *Revue française d'économie*, *Globalization and Health*, *Revue internationale des études du développement*.
-
-      **Selected presentations.** LANDac Conference, Utrecht (2026); Civil War Paths Annual Conference (2026); ICPALD–SPARC–Jameel Observatory Conference, Nairobi (2025); Public Choice Society (2022, 2023); European Public Choice Society (2023); Meta-Analysis in Economic Research Colloquium, Kyoto (2022); HICN Workshop (2021).
-
-      **Used and cited by.** SIPRI (2026) on refugee integration in Chad; the World Bank's operational lessons on adaptive social protection in Chad (2025); ILO (2025) and CREWS (2024) on climate resilience in fragile settings.
-  design:
-    columns: "2"
 
 - block: contact
   id: contact
