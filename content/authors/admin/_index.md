@@ -46,7 +46,5 @@ social:
 
 I study the structural causes of internal conflict, and how land, climate and natural resources shape both conflict and peace in fragile states. I work in the field alongside national partners whenever access allows, which in conflict settings is not always the case. At the core of my methods are satellite and geolocated event data, whose strengths and limits I have studied closely, and qualitative interviews, combined with spatial econometrics, meta-analysis and scenario building. I work in French and English, between conflict economics and applied policy research.
 
-From 2023 to 2026, I was a Research Fellow in the Global Risks and Resilience team at [ODI Global](https://odi.org/en/about/our-work/global-risks-and-resilience/). I am an Associate Researcher at [CERDI](https://cerdi.uca.fr/) and a Research Fellow with [Civil War Paths](https://www.civilwarpaths.org/) (University of York). Earlier, I worked with the World Bank, the IHEDN Chair of Defence Economics, AFD and FERDI.
-
 This site follows where my research stands, region by region: close-ups on [Chad and the Sahel](/sahel/), [Central Africa](/central-africa/), [the Middle East](/middle-east/) and [Papua New Guinea](/pacific/), and a [wide angle](/wide-angle/) on shocks, arms and finance.
 
