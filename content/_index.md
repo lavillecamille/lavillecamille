@@ -82,26 +82,26 @@ sections:
       title: PhD in Economics
       url: ""
     - certificate_url: ""
-      date_end: "2015-10-21"
-      date_start: "2014-10-01"
+      date_end: "2015-09-01"
+      date_start: "2013-09-01"
       description: "M.Sc. in Law, Economics and Management, speciality Development Economics (Research)"
       organization: Université Clermont Auvergne, France
       organization_url: https://www.uca.fr/
       title: M.Sc. in Economics
       url: ""
     - certificate_url: ""
-      date_end: "2015-10-21"
-      date_start: "2014-10-01"
+      date_end: "2015-09-01"
+      date_start: "2013-09-01"
       description: "M.Sc. in Law, Economics and Management, speciality Development Economics (Project Analysis)"
       organization: Université Clermont Auvergne, France
       organization_url: https://www.uca.fr/
       title: M.Sc. in Economics
       url: ""
     - certificate_url: ""
-      date_end: "2015-10-21"
-      date_start: "2014-10-01"
+      date_end: "2013-07-02"
+      date_start: "2012-09-01"
       description: "B.Sc. in Economics and Management"
-      organization: Université Clermont Auvergne, France
+      organization: Université Clermont Auvergne (previously Université d'Auvergne Clermont Ferrand 1), France
       organization_url: https://www.uca.fr/
       title: B.Sc. in Economics
       url: ""      
