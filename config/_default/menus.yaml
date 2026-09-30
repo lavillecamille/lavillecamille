@@ -30,6 +30,3 @@ main:
   - name: Research
     url: '#research'
     weight: 50
-  - name: CV
-    url: /uploads/resume_laville.pdf
-    weight: 70
