@@ -24,11 +24,11 @@ interests:
 last_name: Laville
 organizations:
 - name: Independent researcher and consultant
-role: Economist (PhD) | Conflict, climate and natural resources in fragile states
 - name: Associate Researcher, CERDI
   url: https://cerdi.uca.fr/
 - name: Research Fellow, Civil War Paths (University of York)
   url: https://www.civilwarpaths.org/
+role: Economist (PhD) | Conflict, climate and natural resources in fragile states
 social:
 - icon: envelope
   icon_pack: fas
