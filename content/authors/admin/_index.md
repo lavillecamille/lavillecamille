@@ -22,10 +22,9 @@ interests:
 - Applied Microeconomics
 - Political Economics
 last_name: Laville
-- `organizations` :
-  - *[Independent researcher and consultant — si c'est ton statut au 1er octobre]*
-  - *Associate Researcher, CERDI* — `https://cerdi.uca.fr/`
-  - *Research Fellow, Civil War Paths (University of York)* — `https://www.civilwarpaths.org/`
+organizations:
+- name: Associate Researcher, CERDI
+  url: https://cerdi.uca.fr/
 role: Economist (PhD) | Conflict, climate and natural resources in fragile states
 social:
 - icon: envelope
