@@ -37,7 +37,7 @@ sections:
     text: |
       <img src="/images/workmap.png" alt="Map of the countries I work on, by region and type of work" style="width:100%; margin-top:1rem;">
 
-      <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">Base map: Natural Earth, via the rnaturalearth R package.</p>
+      <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">Base map: Natural Earth, via the rnaturalearth R package; the author makes no claim about border accuracy or legitimacy.</p>
 
       **Close-ups:** [Chad and the Sahel](/sahel/) · [Central Africa](/central-africa/) · [Middle East](/middle-east/) · [Papua New Guinea and the Pacific](/pacific/)
 

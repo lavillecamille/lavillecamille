@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '*© 2026 Camille Laville. This work is licensed under CC BY-NC-ND 4.0.'
+    notice: '© 2026 Camille Laville. This work is licensed under CC BY-NC-ND 4.0.<br>Views expressed on this site are my own. They do not represent those of the institutions I work or have worked with, or of the funders of the research discussed.'
     license:
       enable: true
       allow_derivatives: false
