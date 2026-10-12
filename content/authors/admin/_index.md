@@ -26,7 +26,7 @@ organizations:
 - name: Independent researcher and consultant
 - name: Associate Researcher, CERDI
   url: https://cerdi.uca.fr/
-- name: Research Fellow, Civil War Paths (University of York)
+- name: 2025-2026 Fellow, Civil War Paths (University of York)
   url: https://www.civilwarpaths.org/
 role: Economist (PhD) | Conflict, climate and natural resources in fragile states
 social:
@@ -44,7 +44,6 @@ social:
   link: /uploads/resume_laville.pdf
 ---
 
-I study the structural causes of internal conflict, and how land, climate and natural resources shape both conflict and peace in fragile states. I work in the field alongside national partners whenever access allows, which in conflict settings is not always the case. At the core of my methods are satellite and geolocated event data, whose strengths and limits I have studied closely, and qualitative interviews, combined with spatial econometrics, meta-analysis and scenario building. I work in French and English, between conflict economics and applied policy research.
-
+I am a development economist studying the structural causes of internal conflict and how political, economic and environmental processes interact to shape conflict and insecurity in fragile contexts. I combine applied econometrics and geospatial data, including satellite imagery and geolocated event data, with qualitative research to investigate these relationships, drawing on meta-analysis, interviews and scenario analysis. My work spans conflict economics and systemic risk analysis, from academic research to applied policy work. I work fluently in French and English.
 This site follows where my research stands, region by region: close-ups on [Chad and the Sahel](/sahel/), [Central Africa](/central-africa/), [the Middle East](/middle-east/) and [Papua New Guinea](/pacific/), and a [wide angle](/wide-angle/) on shocks, arms and finance.
 
